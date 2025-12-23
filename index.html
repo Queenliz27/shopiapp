@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="general.css">
+  <link rel="icon" type="image/png" href="images/shopialogoo.png">
+  <title> Shopia </title>
+</head>
+<body>
+  <header>
+    <img src="images/preheadershopiabrand.png">
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search products, brands and categories..." aria-label="Search products">
+
+      <a href="account.html" class="acct-btn">
+          <i class="fa-solid fa-user"></i> Account
+      </a>
+
+
+      <select id="sort" aria-label="Sort products">
+        <option value="relevance">Sort: Relevance</option>
+        <option value="price-asc">Price: Low → High</option>
+        <option value="price-desc">Price: High → Low</option>
+      </select>
+
+      <!--<button id="clearStorage" class="btn btn-ghost">Reset demo</button>-->
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div id="productList" class="product-list" aria-live="polite"></div>
+      <div id="testResults" aria-hidden="false"></div>
+    </section>
+
+    <aside aria-label="Shopping cart">
+      <h1>Cart</h1>
+      <div id="cartItems"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px">
+        <strong>Total</strong>
+        <strong id="cartTotal">₦0</strong>
+      </div>
+      <button id="checkout" class="btn btn-accent" style="width:100%;margin-top:12px">Checkout</button>
+    </aside>
+  </main>
+
+
+  <script src="general.js"></script>
+</body>
+</html>
