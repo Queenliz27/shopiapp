@@ -1,9 +1,3 @@
- /* =====================
-       Mini Jumia — App Logic
-       Focus: Clean, testable JavaScript
-       ===================== */
-
-    // ---- Mock "API" ----
     const PRODUCTS = [
       {
         id: 'p1', name: 'TiLECC BT30 ENC Noise Canceling Wireless Blu.......', 
@@ -67,6 +61,14 @@
         img: 'images/Baileys Original Irish Cream 700ml..jpg', 
         tags: ['drink']
       },
+      {
+        id: 'p10', 
+        name: 'XIAOMI Redmi 15C 6.9" 6GBRAM/128GB ROM Android 15 -Midnight Black', 
+        //XIAOMI Redmi 15C 6.9" 6GBRAM/128GB ROM Android 15 -Midnight Black
+        price: 18750, 
+        img: 'images/Redmi 15c.jpg', 
+        tags: ['drink']
+      },
     ];
 
     // ---- Utilities ----
@@ -85,7 +87,7 @@
     const state = {
       products: [],
       filtered: [],
-      cart: {}, // {productId: qty}
+      cart: {},
     };
 
     // ---- Persistence ----
