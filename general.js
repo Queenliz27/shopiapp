@@ -63,27 +63,177 @@
       },
       {
         id: 'p10', 
-        name: 'XIAOMI Redmi 15C 6.9" 6GBRAM/128GB ROM Android 15 -Midnight Black', 
+        name: 'XIAOMI Redmi 15C 6.9" 6GBRAM or 128GB ROM Android 15 -Midnight Black', 
         //XIAOMI Redmi 15C 6.9" 6GBRAM/128GB ROM Android 15 -Midnight Black
-        price: 18750, 
+        price: 160278, 
         img: 'images/Redmi 15c.jpg', 
-        tags: ['drink']
+        tags: ['Affordable' , 'Reliable' , 'Modern']
+      },
+      {
+        id: 'p11', 
+        name: 'NIVEA Sun UV Sunscreen Face Shine Control Cream SPF 50 - 50ml (Pack of 2)', 
+        price: 16000, 
+        img: 'images/NIVEA Sun UV Sunscreen Face Shine Control Cream SPF 50 - 50ml (Pack of 2).jpg', 
+        tags: ['Protective' , 'Lightweight']
+      },
+      {
+        id: 'p12', 
+        name: 'itel A100 6.75" 90hz Bright Display IP65 5000mah 15W T7250 Octa-core 128+3GB', 
+        //itel A100 6.75'' 90hz Bright Display IP65 5000mah 15W T7250 Octa-core 128+3GB - Star Titanium
+        price: 103000, 
+        img: 'images/itel A100.jpg', 
+        tags: ['Phone' , 'Sturdy' , 'Spacious']
+      },
+      {
+        id: 'p13', 
+        name: 'NIVEA Dry Comfort Roll-on For Women, 72h- 50ml (Pack Of 3)', 
+        price: 4785, 
+        img: 'images/Nivea dry comfor.jpg', 
+        tags: ['Long-lasting', 'Fresh', 'Gentle']
+      },
+      {
+        id: 'p14', 
+        name: 'Aeon 5Kg Twin Tub Washing Machine (ATT05J)', 
+        price: 131000, 
+        img: 'images/Twin washing machine.jpg', 
+        tags: ['Efficient', 'Compact', 'Reliable']
+      },
+      {
+        id: 'p15', 
+        name: 'Mi+ (MiJ) 32" Inches Digital Satellite Frameless HD LED TV-Black', 
+        price: 91999, 
+        img: 'images/Digital Satellite Frameless HD.jpg', 
+        tags: ['Reliable' , 'Television']
+      },
+      {
+        id: 'p16', 
+        name: 'Haier Thermocool 200 Litres Chest Freezer (HTF-200) - White', 
+        price: 379570, 
+        img: 'images/Haier Thermocool 200 Litres Chest Freezer (HTF-200) - White + 3 Years Warranty.jpg', 
+        tags: ['Spacious', 'Reliable', 'Efficient']
+      },
+      {
+        id: 'p17', 
+        name: "Trendyol Women's Camel High Neck Sleeveless Viscose Knitted Blouse", 
+        price: 6010, 
+        img: "images/Trendyol Women's Camel High Neck Sleeveless Viscose Knitted Blouse.jpg", 
+        tags: ['Elegant', 'Comfortable', 'Versatile']
+      },
+      {
+        id: 'p18', 
+        name: "Oraimo Watch 6 2.04'' TFT Full Touch Color Screen Smart Watch", 
+        price: 27997, 
+        img: "images/Oraimo Watch 6 2.04 TFT Full Touch Color Screen Smart Watch.jpg", 
+        tags: ['Colorful', 'Responsive', 'Smart-watch']
+      },
+      {
+        id: 'p19', 
+        name: "DELL Refurbishe Latitude E5440 14in Notebook PC - Intel Core I5-4300u 1.9GHz 8GB 256 SSD Windows 10 Pro", 
+        price: 193344, 
+        img: "images/DELL Refurbishe Latitude E5440 14in Notebook PC - Intel Core I5-4300u 1.9GHz 8GB 256 SSD Windows 10 Pro.jpg", 
+        tags: ['Durable', 'Responsive', 'Efficient']
+      },
+      {
+        id: 'p20', 
+        name: "Smirnoff Red 20cl", 
+        price: 5769, 
+        img: "images/Smirnoff Red 20cl.jpg", 
+        tags: ['Regulated', '20cl']
+      },
+      {
+        id: 'p21', 
+        name: "Skyrun 4 Burners（4+0) Gas Cooker, Automatic Ignition with 60L Oven - (GCS-4G/X) - Black", 
+        price: 149999, 
+        img: "images/skyrun burners.jpg", 
+        tags: ['Spacious', 'Powerful', 'Convenient']
+      },
+      {
+        id: 'p22', 
+        name: "ECOFLOW RIVER 2 MAX Portable Power Station,1 Hour Fast Charging, Up To 1000W Output", 
+        price: 454450, 
+        img: "images/ECOFLOW powerbank.jpg", 
+        tags: ['Powerbank', 'Powerful', 'Fast‑charging']
+      },
+      {
+        id: 'p23', 
+        name: "XIAOMI Redmi Buds 6 Play - Black", 
+        price: 12829, 
+        img: "images/XIAOMI Redmi Buds 6 Play - Black.jpg", 
+        tags: ['Clear', 'Comfortable']
+      },
+      {
+        id: 'p24', 
+        name: "ADIDAS WideWalk Sneakers", 
+        price: 38600, 
+        img: "images/ADIDAS WideWalk Sneakers.jpg", 
+        tags: ['Sneakers', 'Durable', 'Stylish']
+      },
+      {
+        id: 'p25', 
+        name: "Sun King HomePlus Pro Solar Home Light System", 
+        price: 98490, 
+        img: "images/Sun King HomePlus Pro Solar Home Light System.jpg", 
+        tags: ['Bright', 'Reliable', 'Eco‑friendly']
+      },
+      {
+        id: 'p26', 
+        name: "Sony PlayStation 5 PS5 Slim Console- 1TB", 
+        price: 821900, 
+        img: "images/Sony PlayStation 5 PS5 Slim Console- 1TB.jpg", 
+        tags: ['PS5']
+      },
+      {
+        id: 'p27', 
+        name: "Syinix Syinix Swallow Maker- Fully Automatic -fufu/Eba/Yam Pounder", 
+        price: 109497, 
+        img: "images/Syinix Syinix Swallow Maker- Fully Automatic -fufu,Eba,Yam Pounder.jpg", 
+        tags: ['Efficient', 'Pounder', 'Sturdy']
+      },
+      {
+        id: 'p28', 
+        name: "Poco C85 6.9&quot; 8GB RAM / 256GB ROM Xiaomi HyperOS - Black", 
+        price: 166743, 
+        img: "images/Poco C85.jpg", 
+        tags: ['Phone','Powerful' , 'POCO']
+      },
+       {
+        id: 'p29', 
+        name: "Nexus 1HP Split Air Conditioner (NX-MSSH9000SC) - White + Full Installation Kit & 2 Years Warranty", 
+        price: 289999, 
+        img: "images/Nexus 1HP Split Air Conditioner (NX-MSSH9000SC) - White + Full Installation Kit & 2 Years Warranty.jpg", 
+        tags: ['AC','Powerful' , 'Nexus']
+      },
+       {
+        id: 'p30', 
+        name: "Blueidea Rugged Cordless Rechargeable Hair & Beard Clipper", 
+        price: 7790, 
+        img: "images/Blueidea Rugged Cordless Rechargeable Hair & Beard Clipper.jpg", 
+        tags: ['Powerful' , 'Clipper']
       },
     ];
 
-    // ---- Utilities ----
+    //Changes the number to Nigerian currency in whole numbers
     const currency = (v) => new Intl.NumberFormat('en-NG', {style:'currency', currency:'NGN', maximumFractionDigits:0}).format(v);
 
+    //Get first matching element for a CSS selector.
     const el = (sel) => document.querySelector(sel);
+    //Get all matching elements as a real array.
     const els = (sel) => Array.from(document.querySelectorAll(sel));
 
     // simple debounce to avoid rendering on every keystroke
+    //Adding delay so fn isnt called to frequently
     const debounce = (fn, wait=250) => {
+
       let t;
-      return (...args) => { clearTimeout(t); t = setTimeout(()=>fn(...args), wait); };
+
+    // (...args) returns a new function that can accept any number of arguments.
+      return (...args) => { clearTimeout(t); 
+        
+    //Sets a new timer to call fn with the latest arguments after wait milliseconds.
+    // If another event happens before wait is over, the previous timer is canceled and a new one starts.
+        t = setTimeout(()=>fn(...args), wait); };
     };
 
-    // ---- App state ----
     const state = {
       products: [],
       filtered: [],
